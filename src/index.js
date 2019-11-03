@@ -14,7 +14,7 @@ const counter = (state = 0, action) => {
     }
 }
 
-//Counter REACT COMPONENT
+//Counter REACT COMPONENT taking PROPS of value, onIncrement and onDecrement
 const Counter = ({value, onIncrement, onDecrement}) => (
     <div>
         <h1>{value}</h1>
